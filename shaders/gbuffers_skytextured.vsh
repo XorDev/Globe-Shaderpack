@@ -1,6 +1,6 @@
 #version 120
 
-#define Radius 16. //[4. 10. 12. 16. 24. 32.]
+#include "/lib/settings.glsl"
 
 attribute float mc_Entity;
 

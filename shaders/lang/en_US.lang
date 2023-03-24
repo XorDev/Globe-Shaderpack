@@ -1,0 +1,10 @@
+screen.CURVATURE_SETTINGS=Curvature Settings
+
+option.NETHER_RADIUS=Nether Radius
+value.NETHER_RADIUS.0=§cOFF
+
+option.OVER_RADIUS=Overworld Radius
+value.OVER_RADIUS.0=§cOFF
+
+option.END_RADIUS=End Radius
+value.END_RADIUS.0=§cOFF

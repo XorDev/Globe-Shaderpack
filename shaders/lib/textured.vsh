@@ -15,7 +15,7 @@ void main() {
     pos = (gbufferModelViewInverse * vec4(pos, 1.0)).xyz;
 
     #ifdef APPLY_CURVATURE
-        pos.y -= sign(RADIUS) * dot(pos.xz, pos.xz) / (RADIUS * RADIUS);
+        if (RADIUS != 0) pos.y -= sign(RADIUS) * dot(pos.xz, pos.xz) / (RADIUS * RADIUS);
     #endif
 
     gl_Position = gl_ProjectionMatrix * gbufferModelView * vec4(pos, 1.0);

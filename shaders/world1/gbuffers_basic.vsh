@@ -1,5 +1,5 @@
 #version 120
 
-#define OVERWORLD
-#define FRAGMENT
+#define WRLD_END
+#define VERTEX
 #include "/lib/models/gbuffers_basic.glsl"

@@ -1,5 +1,5 @@
 #version 120
 
-#define OVERWORLD
-#define FRAGMENT
+#define WRLD_OVER
+#define VERTEX
 #include "/lib/models/gbuffers_skytextured.glsl"

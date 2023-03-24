@@ -1,5 +1,5 @@
 #version 120
 
-#define OVERWORLD
+#define WRLD_OVER
 #define VERTEX
 #include "/lib/models/gbuffers_clouds.glsl"

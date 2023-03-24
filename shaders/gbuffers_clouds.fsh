@@ -1,5 +1,5 @@
 #version 120
 
-void main() {
-    discard;
-}
+#define OVERWORLD
+#define FRAGMENT
+#include "/lib/models/gbuffers_clouds.glsl"

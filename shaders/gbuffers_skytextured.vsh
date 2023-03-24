@@ -1,5 +1,5 @@
 #version 120
 
-#include "/lib/settings.glsl"
-
-#include "/lib/textured.vsh"
+#define OVERWORLD
+#define VERTEX
+#include "/lib/models/gbuffers_skytextured.glsl"

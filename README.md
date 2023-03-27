@@ -1,5 +1,5 @@
 # Globe-Shaderpack
- Make you're Minecraft world spherical with this shaderpack for Optifine!
+ Make your Minecraft world spherical with this shaderpack for Optifine!
 
 ![Globe](/screenshots/globe.png)
 ![Night](/screenshots/night.png)
